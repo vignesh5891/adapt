@@ -1,0 +1,28 @@
+
+.side-nav{
+    height: 100vh;
+    background-color: blueviolet;
+  }
+  
+  .nav-menu{
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav-menu li{
+    padding: 10px 5px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .nav-menu li.selected{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 50% 0 0 50%;
+  }
+
+  .nav-menu li:hover{
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 50% 0 0 50%;
+  }

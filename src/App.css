@@ -1,22 +1,21 @@
-body{
+body {
   margin: 0;
 }
-.p-10{
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-5 {
   padding: 5px;
 }
-.adapt-app{
+
+.adapt-app {
   display: grid;
   grid-template-columns: 50px auto;
 }
-.side-nav{
-  height: 100vh;
-  background-color: blueviolet;
-  padding: 5px;
-}
-.container{
+
+.container {
   display: grid;
-  grid-template-columns: 200px auto;
-}
-.sidebar{
-  border: 1px solid black;
+  grid-template-columns: 250px auto;
 }
