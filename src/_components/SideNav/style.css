@@ -1,7 +1,7 @@
 
 .side-nav{
     height: 100vh;
-    background-color: blueviolet;
+    background-color: var(--primary-color);
   }
   
   .nav-menu{
