@@ -1,6 +1,8 @@
 :root {
   --primary-color: #8a2be2;
+  --primary-bg: #8a2be221;
 }
+
 body {
   margin: 0;
 }
@@ -13,12 +15,61 @@ body {
   padding: 5px;
 }
 
+.m-10 {
+  margin: 10px;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.f-l {
+  float: left;
+}
+
+.f-r {
+  float: right;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.shadow-box {
+  box-shadow: 0px 0px 5px 2px #8a2be221;
+}
+
+.d-block {
+  display: block;
+}
+
+.primary-text {
+  color: var(--primary-color);
+}
+
+.primary-bg {
+  background-color: var(--primary-bg);
+  color: var(--primary-color);
+}
+
+.bordered-table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.bordered-table tr {
+  border: 1px solid #8a2be221;
+}
+
+td, th {
+  padding: 5px;
+}
+
+.text-center{
+  text-align: center;
+}
 .adapt-app {
   display: grid;
   grid-template-columns: 50px auto;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 250px auto;
 }
